@@ -53,7 +53,9 @@ Example Response:
 	}
 **API ENDPOINTS**
 - List Books:
+  
 Endpoint: GET /api/books/
+
 Description: Get a list of all books.
 Example Request (Postman):
 		- Set GET as the HTTP method.
