@@ -54,14 +54,20 @@ Example Response:
 **API ENDPOINTS**
 - List Books:
   
-Endpoint: GET /api/books/
+  Endpoint: GET /api/books/
 
-Description: Get a list of all books.
-Example Request (Postman):
+  Description: Get a list of all books.
+  
+  Example Request (Postman):
+  
 		- Set GET as the HTTP method.
+  
 		- Enter the URL: http://localhost:8000/api/books/
+  
 		- Add Authorization header with the value Bearer your_access_token.
+  
 		- Click Send.
+  
 - Retrieve Book
  Endpoint: GET /api/books/<id>/
 Description: Get details of a specific book by its ID.
